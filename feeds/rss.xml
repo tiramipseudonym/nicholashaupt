@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+
+
+<channel>
+
+<atom:link href="http://www.nicholashaupt.com/feeds/rss.xml" rel="self" type="application/rss+xml" />
+
+<title>Nicholas Haupt RSS</title>
+<link>http://www.nicholashaupt.com</link>
+<description>Nicholas Haupt RSS</description>
+
+<image>
+<url>http://www.nicholashaupt.com/new/feeds/rss.jpg</url>
+<title>Nicholas Haupt RSS</title>
+<link>http://www.nicholashaupt.com</link>
+</image>
+
+<item>
+<title>Feed 1</title>
+<link>http://www.nicholashaupt.com/feeds/feed1.htm</link>
+<description>Feed 1</description>
+<guid>http://www.nicholashaupt.com/feed1.htm</guid>
+</item>
+
+<item>
+<title>Feed 2</title>
+<link>http://www.nicholashaupt.com/feed/feed2.htm</link>
+<description>Feed 2</description>
+<guid>http://www.nicholashaupt.com/feed/feed2.htm</guid>
+</item>
+
+<item>
+<title>Feed 3</title>
+<link>http://www.nicholashaupt.com/feed/feed3.htm</link>
+<description>Feed 3</description>
+<guid>http://www.nicholashaupt.com/feed/feed3.htm</guid>
+</item>
+
+</channel>
+
+</rss>

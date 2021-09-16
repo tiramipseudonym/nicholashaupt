@@ -1,0 +1,86 @@
+body {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background: url(../images/global/bg_black.gif) fixed center;
+    height: 100%;
+    min-height: 100%;
+}
+p {
+    font-size: 11pt;
+    font-family: Helvetica Neue,sans-serif;
+    color: black;
+    text-align: justify;    
+}
+h2 a {
+    color: white;
+}
+#header {
+    height: 50px;
+    width: 100%;
+    background: url(../images/global/texture.png);
+    position:fixed;
+}
+.button {
+    text-align: left;
+    width: 100%;
+    height: 30px;
+    background-color: #2e3b11;
+    max-height: 35px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background: url(../images/global/texture.png)
+}
+.button a {
+    color: #ffffff;
+    font-family: Helvetica Neue,sans-serif;
+    font-size: 1em;
+    margin-left: 15px;
+}
+.anchor {
+    text-align: left;
+    font-family: Helvetica Neue,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000000;
+}
+.bold {
+    font-weight: bold;
+}
+.sectiontitle {
+    text-align: left;
+    font-family: Helvetica Neue,sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+}
+
+.hasJS .faq dd {
+    position: absolute;
+    top: 0;
+    left: -200em;
+    width: 58em;
+}
+.hasJS .faq dd.on {
+    position: static;
+    left: 0;
+    width: auto;
+}
+.hasJS .faq dd {
+    opacity: 0;
+}
+.hasJS .faq dd.on {
+    opacity: 1;
+}
+.img {
+    padding-right: 10px;
+    float: left;
+}
+.wishimg {
+    padding: 0px 36px 18px 0px;
+    float: left;
+}
+.clearfix {
+    overflow: auto;
+}

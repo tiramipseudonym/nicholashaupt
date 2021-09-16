@@ -1,0 +1,9 @@
+a:link { text-decoration: none }
+a:visited { text-decoration: none }
+a:hover { text-decoration: none }
+h1 { text-align: left; padding-left: 5px; font-family: Arial, Sans-serif; font-size: 14pt; font-weight: bold; color: #FFFFFF;  }
+h2 { line-height: 0px; text-align: left; padding-left: 5px; font-family: Arial, Sans-serif; font-size: 12pt; font-weight: bold; color: #FFFFFF; }
+p { padding-left: 5px; font-family: "Verdana", Arial, Sans-serif; font-size: 10pt; color: #FFFFFF; }
+.bold { font-weight: bold }
+.copy { text-align: left; font-family: "Verdana", Arial, Sans-serif; font-size: 8pt; color: #FFFFFF}
+.body { text-align: justify; padding-left: 50px; padding-right: 50px; font-family: "Verdana", Arial, Sans-serif; font-size: 10pt; color: #FFFFFF; }
