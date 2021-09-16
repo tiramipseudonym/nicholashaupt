@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'railway';
+    src: url('fonts/railway.woff2') format('woff2'),
+         url('fonts/railway.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('fonts/helveticaneue.woff2') format('woff2'),
+         url('fonts/helveticaneue.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/global/bg_black.gif);
+}
+
+h1 {
+    font-family: 'Railway',sans-serif;
+    font-weight: 100;
+    position: absolute;
+    z-index: 2;
+    color: #ffffff;
+    line-height: .25em;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    letter-spacing: 4px;
+}
+
+h2 {
+    font-family: 'Railway',sans-serif;
+    font-weight: 1;
+    float: left;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em black;
+    z-index: 2;
+    letter-spacing: 2px;
+}
+
+.smicondiv {
+    position: sticky;
+    top: 0;
+    text-align: right;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.icondiv {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+}
+
+
+#container {
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    height: 100%;
+    max-width: 800px;
+    margin-right: auto;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#whiteline {
+    background: url(../images/global/bg_white.gif) fixed center;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    position: absolute;
+    z-index: -2;
+    min-height: 111%;
+    min-width: 111%;
+    left: -10px;
+    top: -10px;
+}
+
+#content {
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+@-webkit-keyframes dissolve {
+    0%, 30%, 100% { opacity: 0; }
+    5%, 25% { opacity: 1;}
+}
+@-moz-keyframes dissolve {
+    0%, 30%, 100% { opacity: 0; }
+    5%, 25% { opacity: 1;}
+}
+@-ms-keyframes dissolve {
+    0%, 30%, 100% { opacity: 0; }
+    5%, 25% { opacity: 1;}
+}
+@keyframes dissolve {
+    0%, 30%, 100% { opacity: 0; }
+    5%, 25% { opacity: 1;}
+}
+
+@media (max-width: 600px) {
+
+h1 {
+    font-size: 1.8em;
+    margin-left: 5%;
+    margin-top: 12.5%;
+}
+ 
+h2 {
+    font-size: 1.4em;
+    margin-left: 2%;
+    line-height: 0em;
+}
+
+.smicon {
+    margin: 5px;
+    height: 26px; 
+    width: 26px;
+ }
+
+.logo {
+    margin: 5px;
+    height: 26px; 
+    width: 26px;
+}    
+    
+span.text-content {
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+    font-size: 1em;
+}
+
+.icon {
+    height: 75px;
+    width: 75px;
+    margin: 10px;
+}
+}
+
+@media (min-width: 600px) {
+
+h1 {
+    font-size: 3.8em;
+    margin: 10%;
+}
+.smicon {
+    margin: 5px;
+    height: 52px; 
+    width: 52px;
+ }
+
+.logo {
+    margin: 5px 5px 5px 15px;
+    height: 52px; 
+    width: 52px;
+}
+    
+h2 {
+    font-size: 2em;
+    margin-left: 2%;
+    line-height: .25em;
+}
+
+span.text-content {
+    height: 125px;
+    width: 125px;
+    margin: 15px;
+}
+
+.icon {
+    height: 125px;
+    width: 125px;
+    margin: 15px;
+}
+}
+
+@media (min-width: 1000px) {
+
+h1 {
+    font-size: 5.8em;
+    margin: 10%;
+}
+h2 {
+    font-size: 2em;
+    margin-left: 2.5%;
+    line-height: .25em;
+}
+.smicon {
+    margin: 5px;
+    height: 52px; 
+    width: 52px;
+}
+.logo {
+    margin: 5px 5px 5px 15px;
+    height: 52px; 
+    width: 52px;
+}    
+span.text-content {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+
+.icon {
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+}
+}
+.copy {
+    color: white;
+    font-size: 9pt;
+    text-align: center;
+    font-family: Helvetica Neue,sans-serif;
+}
