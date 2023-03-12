@@ -230,6 +230,10 @@ span.text-content {
     width: 150px;
     margin: 20px;
 }
+
+.bold {
+    font-weight: bold;
+
 }
 .copy {
     color: white;
