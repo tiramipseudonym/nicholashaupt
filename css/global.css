@@ -230,6 +230,7 @@ span.text-content {
     width: 150px;
     margin: 20px;
 }
+}
 
 .bold {
     font-weight: bold;
@@ -240,5 +241,4 @@ span.text-content {
     font-size: 9pt;
     text-align: center;
     font-family: Helvetica Neue,sans-serif;
-}
 }
