@@ -8,7 +8,7 @@ body {
 }
 p {
     font-size: 11pt;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     color: black;
     text-align: justify;    
 }
@@ -20,9 +20,6 @@ h2 a {
     width: 100%;
     background: url(../images/global/texture.png);
     position:fixed;
-}
-#whiteline {
-    border: 2%;
 }
 .button {
     text-align: left;
@@ -50,7 +47,6 @@ h2 a {
 }
 
 .carouselimg {
-    widows: 120px;
     height: auto;
 }
 

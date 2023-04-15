@@ -38,7 +38,7 @@ span.text-content {
     -o-transition: opacity 500ms;
     transition: opacity 500ms;
     border-radius: 50%;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     font-size: 1.5em;
     font-weight: 100;
 }

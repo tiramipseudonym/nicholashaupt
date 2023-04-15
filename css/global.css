@@ -8,7 +8,7 @@
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
+    font-family: '"Helvetica Neue"';
     src: url('fonts/helveticaneue.woff2') format('woff2'),
          url('fonts/helveticaneue.woff') format('woff');
     font-weight: normal;
@@ -240,5 +240,5 @@ span.text-content {
     color: white;
     font-size: 9pt;
     text-align: center;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
 }

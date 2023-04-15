@@ -8,7 +8,7 @@ body {
 }
 p {
     font-size: 11pt;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     color: black;
     text-align: justify;    
 }
@@ -34,21 +34,21 @@ h2 a {
 }
 .button a {
     color: #ffffff;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     font-size: 1em;
     margin-left: 15px;
 }
 .anchor {
     text-align: left;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     font-size: 1em;
     font-weight: bold;
     color: #000000;
 }
-}
+
 .sectiontitle {
     text-align: left;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     font-size: 1.2em;
     font-weight: bold;
     color: #000000;
@@ -73,10 +73,6 @@ h2 a {
 }
 .img {
     padding-right: 10px;
-    float: left;
-}
-.wishimg {
-    padding: 0px 36px 18px 0px;
     float: left;
 }
 .clearfix {
