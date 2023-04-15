@@ -34,14 +34,14 @@ h2 a {
 }
 .button a {
     color: #ffffff;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     font-size: 1em;
     margin-left: 15px;
 }
 .info {
     padding: 5px;
     text-align: justify;
-    font-family: Helvetica Neue,sans-serif;
+    font-family: "Helvetica Neue",sans-serif;
     font-size: 11pt;
     color: #000000;
 }

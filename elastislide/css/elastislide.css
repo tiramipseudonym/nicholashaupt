@@ -46,16 +46,8 @@
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	-webkit-backface-visibility: hidden;
-	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
-	-ms-transform: translateX(0px);
-	-o-transform: translateX(0px);
+	backface-visibility: hidden;
 	transform: translateX(0px);
-	transition-property: -webkit-transform;
-	transition-property: -moz-transform;
-	transition-property: -o-transform;
-	transition-property: -ms-transform;
 	transition-property: transform;
   	transition-duration: 200ms;
 }
@@ -66,7 +58,7 @@
 
 .elastislide-carousel ul li {
 	margin: 0;
-	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
 }
 
 .elastislide-horizontal ul li {
