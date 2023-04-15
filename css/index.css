@@ -99,30 +99,18 @@ body {
     left: 0;
     right: 0;
     opacity: 0;
-    -webkit-animation: dissolve 20s linear infinite;
-    -moz-animation: dissolve 20s linear infinite;
-    -ms-animation: dissolve 20s linear infinite;
     animation: dissolve 20s linear infinite;
 }
 
 .dissolve .item:nth-child(2) {
-    -webkit-animation-delay: 5s;
-    -moz-animation-delay: 5s;
-    -ms-animation-delay: 5s;
     animation-delay: 5s;
 }
 
 .dissolve .item:nth-child(3) {
-    -webkit-animation-delay: 10s;
-    -moz-animation-delay: 10s;
-    -ms-animation-delay: 10s;
     animation-delay: 10s;
 }
 
 .dissolve .item:nth-child(4) {
-    -webkit-animation-delay: 15s;
-    -moz-animation-delay: 15s;
-    -ms-animation-delay: 15s;
     animation-delay: 15s;
 }
 
@@ -136,18 +124,7 @@ body {
     border-radius: 50%;
 }
 
-@-webkit-keyframes dissolve {
-    0%, 30%, 100% { opacity: 0; }
-    5%, 25% { opacity: 1;}
-}
-@-moz-keyframes dissolve {
-    0%, 30%, 100% { opacity: 0; }
-    5%, 25% { opacity: 1;}
-}
-@-ms-keyframes dissolve {
-    0%, 30%, 100% { opacity: 0; }
-    5%, 25% { opacity: 1;}
-}
+
 @keyframes dissolve {
     0%, 30%, 100% { opacity: 0; }
     5%, 25% { opacity: 1;}
