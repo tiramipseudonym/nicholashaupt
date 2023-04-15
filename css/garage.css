@@ -77,8 +77,4 @@ h2 a {
 }
 .clearfix {
     overflow: auto;
-    font-size: 11pt;
-    font-family: "Helvetica Neue",sans-serif;
-    color: black;
-    text-align: justify;    
 }
