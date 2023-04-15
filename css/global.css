@@ -103,18 +103,7 @@ h2 {
     position: relative;
 }
 
-@-webkit-keyframes dissolve {
-    0%, 30%, 100% { opacity: 0; }
-    5%, 25% { opacity: 1;}
-}
-@-moz-keyframes dissolve {
-    0%, 30%, 100% { opacity: 0; }
-    5%, 25% { opacity: 1;}
-}
-@-ms-keyframes dissolve {
-    0%, 30%, 100% { opacity: 0; }
-    5%, 25% { opacity: 1;}
-}
+
 @keyframes dissolve {
     0%, 30%, 100% { opacity: 0; }
     5%, 25% { opacity: 1;}
