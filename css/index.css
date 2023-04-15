@@ -86,7 +86,6 @@ body {
 /* dissolve  */
 .dissolve {
     width: 100%;
-    min-height: 100px;
     height: 35%;
     max-height: 350px;
     position: relative;
@@ -150,6 +149,8 @@ span.text-content {
     width: 75px;
     margin: 10px;
 }
+.dissolve {min-height: 200px; 
+}
 }
 
 @media (min-width: 600px) {
@@ -171,6 +172,8 @@ span.text-content {
     width: 125px;
     margin: 15px;
 }
+.dissolve {min-height: 275px; 
+}
 }
 
 @media (min-width: 1000px) {
@@ -191,5 +194,8 @@ span.text-content {
     height: 150px;
     width: 150px;
     margin: 20px;
+}
+
+.dissolve {min-height: 350px; 
 }
 }
