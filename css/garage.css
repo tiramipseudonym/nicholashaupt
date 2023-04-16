@@ -21,7 +21,7 @@ h2 a {
     background: url(../images/global/texture.png);
     position:fixed;
 }
-.button {
+dt {
     text-align: left;
     width: 100%;
     height: 30px;
@@ -32,7 +32,7 @@ h2 a {
     margin-top: 15px;
     background: url(../images/global/texture.png)
 }
-.button a {
+dt a {
     color: #ffffff;
     font-family: "Helvetica Neue",sans-serif;
     font-size: 1em;
