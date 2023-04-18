@@ -48,14 +48,6 @@ h2 a {
 .bold {
     font-weight: bold;
 }
-.sectiontitle {
-    text-align: left;
-    font-family: "Helvetica Neue",sans-serif;
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #000000;
-}
-
 .hasJS .faq dd {
     position: absolute;
     top: 0;
