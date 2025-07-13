@@ -1,8 +1,6 @@
-		function toggleAnswer(id) {
-			var answer = document.getElementById(id);
-			if (answer.style.display === "none") {
-				answer.style.display = "block";
-			} else {
-				answer.style.display = "none";
-			}
-		}
+function toggleAnswer(id) {
+	var answer = document.getElementById(id);
+	var isHidden = window.getComputedStyle(answer).display === "none";
+  
+	answer.style.display = isHidden ? "block" : "none";
+  }
