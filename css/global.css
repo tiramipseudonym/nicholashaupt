@@ -28,7 +28,7 @@ a:hover {
 
 body {
     margin: 0;
-    background-image: url(../images/global/bg_black.gif);
+    background-image: url(../images/global/bg_black0.gif);
     background-color: #2f4455;
 }
 
@@ -56,9 +56,9 @@ h2 {
 .smicondiv {
     position: sticky;
     top: 0;
-    text-align: right;
+    text-align: left;
     padding: 10px;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(255, 255, 255, 0.15);
     z-index: 1;
 }
 
@@ -74,6 +74,7 @@ h2 {
 
 
 #container {
+    margin-top: 2em;
     max-width: 800px;
     width: 100%;
     margin-left: auto;
@@ -155,11 +156,9 @@ h2 {
     line-height: 0em;
 }
 
-.smicon {
-    margin: 5px;
-    height: 26px; 
-    width: 26px;
- }
+.smicondiv {
+    min-height: 35px;
+}
 
 .logo {
     margin: 5px;
@@ -187,11 +186,10 @@ h1 {
     font-size: 3.8em;
     margin: 10%;
 }
-.smicon {
-    margin: 5px;
-    height: 52px; 
-    width: 52px;
- }
+
+.smicondiv {
+    min-height: 60px;
+}
 
 .logo {
     margin: 5px 5px 5px 15px;
@@ -229,16 +227,16 @@ h2 {
     margin-left: 2.5%;
     line-height: .25em;
 }
-.smicon {
-    margin: 5px;
-    height: 52px; 
-    width: 52px;
-}
 .logo {
     margin: 5px 5px 5px 15px;
     height: 52px; 
     width: 52px;
 }    
+
+.smicondiv {
+    min-height: 60px;
+}
+
 span.text-content {
     height: 150px;
     width: 150px;
