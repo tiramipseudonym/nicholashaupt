@@ -34,8 +34,10 @@ h2 a {
 }
 .button a {
     color: #ffffff;
-    font-family: "Helvetica Neue",sans-serif;
+    font-family: "Railway",sans-serif;
     font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
     margin-left: 15px;
 }
 .info {

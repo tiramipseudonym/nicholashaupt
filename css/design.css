@@ -31,12 +31,15 @@ h2 a {
     margin-bottom: 15px;
     margin-top: 15px;
     background: url(../images/global/texture.png);
+
 }
 .button a {
     color: #ffffff;
-    font-family: "Helvetica Neue",sans-serif;
+    font-family: "Railway",sans-serif;
     font-size: 1em;
+    letter-spacing: 1px;
     margin-left: 15px;
+    
 }
 .anchor {
     text-align: center;

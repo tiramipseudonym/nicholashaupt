@@ -16,7 +16,10 @@ body {
 }
 
 
-
+.smicondiv {
+    background: none;
+    backdrop-filter: none;
+}
 
 .banner {
   position: relative;
